@@ -42,9 +42,7 @@ Input: nums = [3,4,5,6,7,8]
 Output: 480
 Explanation: The sum of all XOR totals for every subset is 480.
  
-
 Constraints:
-
 1 <= nums.length <= 12
 1 <= nums[i] <= 20
 */
