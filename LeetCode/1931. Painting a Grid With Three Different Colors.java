@@ -26,7 +26,17 @@ Explanation: The six possible colorings are shown in the image above.
 Example 3:
 
 Input: m = 5, n = 5
-Output: 580986class Solution {
+Output: 580986
+
+Constraints:
+
+1 <= m <= 5
+1 <= n <= 1000
+*/
+
+//Solution
+
+class Solution {
     static final int MOD = 1_000_000_007;
     List<String> comb = new ArrayList<>();
     Map<Integer, List<Integer>> G = new HashMap<>();
@@ -77,15 +87,5 @@ Output: 580986class Solution {
         return result;
     }
 }
-
- 
-
-Constraints:
-
-1 <= m <= 5
-1 <= n <= 1000
-*/
-
-//Solution
 
 
