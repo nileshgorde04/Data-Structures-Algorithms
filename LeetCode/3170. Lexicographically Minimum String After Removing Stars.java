@@ -1,4 +1,4 @@
-//Leetcode Problem Number : 3170. Lexicographically Minimum String After Removing Stars
+//Leetcode Problem Number : 3170. Lexicographically Minimum String After Removing Stars.
 /*
 You are given a string s. It may contain any number of '*' characters. Your task is to remove all '*' characters.
 
