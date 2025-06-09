@@ -1,5 +1,5 @@
-// 386. Lexicographical Numbers
-/*386. Lexicographical Numbers
+/*
+386. Lexicographical Numbers
 Solved
 Medium
 Topics
@@ -23,7 +23,10 @@ You must write an algorithm that runs in O(n) time and uses O(1) extra space.
   
   Constraints:
   
-  1 <= n <= 5 * 104 */
+  1 <= n <= 5 * 104 
+*/
+//Solution
+
 class Solution {
     static public List<Integer> lexicalOrder(int n) {
         List<Integer> ans = new ArrayList<>();
