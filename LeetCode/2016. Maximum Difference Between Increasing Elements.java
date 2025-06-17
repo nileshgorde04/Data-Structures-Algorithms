@@ -34,6 +34,8 @@ n == nums.length
 1 <= nums[i] <= 109
 */
 
+//Solution
+
 class Solution {
     public int maximumDifference(int[] nums) {
         int min = nums[0],answer = 0;
