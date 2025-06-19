@@ -1,16 +1,4 @@
-/** 2966. Divide Array Into Arrays With Max Difference
-Description
-
-
-Editorial
-Submissions
-Submissions
-Accepted
-Code
-Code
-Testcase
-Test Result
-Test Result
+/*
 2966. Divide Array Into Arrays With Max Difference
 Solved
 Medium
@@ -70,7 +58,8 @@ n == nums.length
 n is a multiple of 3
 1 <= nums[i] <= 105
 1 <= k <= 105
-**/
+
+*/
 class Solution {
     public int[][] divideArray(int[] nums, int k) {
         Arrays.sort(nums);
