@@ -11,7 +11,6 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
-
 public static List<Integer> dynamicArray(int n, List<List<Integer>> queries) {
     List<List<Integer>> seqList = new ArrayList<>();
     for (int i = 0; i < n; i++) {
@@ -36,7 +35,6 @@ public static List<Integer> dynamicArray(int n, List<List<Integer>> queries) {
             result.add(lastAnswer);
         }
     }
-
     return result;
 }
 
